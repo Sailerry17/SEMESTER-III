@@ -1,0 +1,171 @@
+<html>
+    <script language="JavaScript">
+            document.writeln("<CENTER>");
+            document.writeln("<H1>UNIVERSITAS KOMPUTER INDONESIA </H1>");
+            document.writeln("<H2>JL.DIPATIUKUR 112 BANDUNG</H2>");
+            document.writeln("</CENTER>");
+        </script>
+        </html>
+        <form>
+            <center>
+            <input type="button" value="Proses" onClick="alert('Anda telah MengClick Tombol Proses')">
+            </center>
+        </form>
+        <html>
+            <script language="JavaScript">
+                document.write("Belajar Java Script<br>");
+                document.write("Belajar Java Script<br>");
+                document.write("Belajar Java Script<br>");
+                document.write("Belajar Java Script<br>");
+            </script>
+            </html>
+            <html>
+                <head>
+                    <script language="JavaScript">
+                        function calculation() {
+                            var x = 12;
+                            var y = 5;
+                            var result = x + y;
+                            alert(result);
+                        }
+                    </script>
+                </head>
+                <body>
+                    <form>
+                        <input type="button" value="Calculate" onClick="calculation()">
+                    </form>
+                </body>
+                </html>
+                <html>
+                    <script language="JavaScript">
+                        function myFunction() {
+                            document.write("Belajar Java Script<br>");
+                        }
+                        myFunction();
+                        myFunction();
+                        myFunction();
+                        myFunction();
+                    </script>
+                    </html>
+                    <html>
+                        <head>
+                            <title>Operasi Aritmetik</title>
+                        </head>
+                        <p>
+                            <script language="JavaScript">
+                                document.writeln("<PRE>");
+                                    document.writeln("<h1>Operasi Aritmetika </h1>");
+                                    var A = "100";
+                                    var B = "200";
+                                    var C = 300;
+                                    var D = 400;
+                                    var E = A + B;
+                                document.writeln('"100" + "200" =  ' + E);
+                                E = B + C;
+                                document.writeln('"200" +  300  =  ' + E);
+                                E = C + D;
+                                document.writeln(' 300  +  400  =  ' + E);
+                                document.writeln("</PRE>");
+                            </script>
+                        </body>
+                        </html>
+                        <form name=form>
+                            <script>
+                                function proses()
+                                {
+                                    var nama2=document.form.nama.value;
+                                    var alamat2=document.form.alamat.value;
+                                    alert("Nama : "+nama2+ " Alamat: " +alamat2);
+                                }
+                            </script>
+                            <PRE>
+                                Masukan dengan Input Type=Text
+                                Nama   : <input type="text" size="10" name="nama">
+                                Alamat : <input type="text" size="20" name="alamat">
+                            </PRE>
+                            <input type=button value=Proses onclick="proses()">
+                            <input type=reset>
+                            <html>
+                                <script language="JavaScript">
+                                    function radio_box(form) 
+                                    {
+                                        var ket="";
+                                        if (form.pilih.checked == true)
+                                        ket="Memilih Ya ";
+                                        else
+                                        ket= "Tidak memilih ";
+                                        alert(' Anda ' +ket);
+                                    }
+                                </script>
+                                <form>
+                                    <input type="radio" name="pilih" value="Memilih Ya"> Ya </p>
+                                    <hr>
+                                    <input type="button" value="CONFIRM"
+                                    onclick="radio_box(this.form)"> <input type="reset"
+                                    value="Reset">
+                                </form>
+                                <html>
+                                    <script language="JavaScript">
+                                        function check_box(form)
+                                        {
+                                            var ket1="";
+                                            var ket2="";
+                                            if (form.satu.checked == true) ket1="Satu";
+                                            if (form.dua.checked == true) ket2="Dua";
+                                            alert('Anda memilih checkbox '+ ket1+' '+ ket2);
+                                        }
+                                    </script>
+                                    Menggunakan Checkbox
+                                    <form>
+                                        <input type="checkbox" name="satu"> Satu
+                                        <input type="checkbox" name="dua"> Dua
+                                        <hr>
+                                        <input type="button" value="CONFIRM"
+                                        onclick="check_box(this.form)">
+                                        <input type="reset" value="Reset">
+                                    </form>
+                                    <html>
+                                        <script language="JavaScript">
+                                            function  EvenTekan()
+                                            {
+                                                var ketstr=(document.fForm.ket.value);
+                                                document.fForm.ketstr.value=ketstr;
+                                            }
+                                        </script>
+                                        <form name="fForm">
+                                            Memasukan Data Pada TextArea
+                                            <hr>
+                                            Masukan:
+                                            <br>
+                                            <textarea name="ket" rows="3" cols="30">
+                                            </textarea>
+                                            <br>
+                                            <input type="button" value="Kirim" onclick="EvenTekan()">
+                                            <input type="reset" value="Reset">
+                                            <BR>
+                                                Keluaran:<br>
+                                                <textarea name="ketstr" rows="3" cols="30">
+                                                </textarea>
+                                            </form>
+                                            <html>
+                                                <script language="javascript">
+                                                    function  EvenTekan()
+                                                    {
+                                                        var jurusanstr = (document.fform.jurusan.value);
+                                                        document.fform.jurusanstr.value=jurusanstr;
+                                                    }
+                                                </script>
+                                                <form name="fform">
+                                                    Penggunaan Select
+                                                    <hr><pre>
+                                                        Pilih Jurusan:<select name="jurusan" size="1">
+                                                            <option value="Akuntansi Perpajakan">Akuntansi Perpajakan
+                                                                <option value="Manajemen Informatika">Manajemen Informatika
+                                                                    <option value="Teknik Informatika">Teknik Informatika
+                                                                        <option value="Public Relation">Public Relation
+                                                                            <option value="Akuntansidan Perpajakan">Akuntansi dan Perpajakan
+                                                                            </select>
+                                                                            <input type="button" value="Kirim" onclick="EvenTekan()"><input type="reset">
+                                                                            <hr>
+                                                                            Jurusan:<input type="text" size="30" name="jurusanstr">
+                                                                        </form>
